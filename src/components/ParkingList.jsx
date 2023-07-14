@@ -6,7 +6,7 @@ const ParkingList = ({ initialItems }) => {
     <div className="list">
       <ul>
         {initialItems.map((item) => (
-          <li>{<Item item={item} />}</li>
+          <li>{<Item key={item.id} item={item} />}</li>
         ))}
       </ul>
     </div>
