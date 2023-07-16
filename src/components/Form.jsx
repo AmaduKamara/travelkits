@@ -16,8 +16,7 @@ const Form = ({ onAddItems }) => {
       packed: false,
     };
 
-    console.log(newItem);
-
+    // OnAddItems prop from the App parent component is responsible for actually updating the items state.
     onAddItems(newItem);
 
     setDescription("");
