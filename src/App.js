@@ -21,11 +21,23 @@ function App() {
     setItems((items) => items.filter((item) => item.id !== id));
   };
 
+  const handleToggleItem = (id) => {
+    setItems((items) =>
+      items.map((item) =>
+        item.id === id ? { ...item, packed: !item.packed } : item
+      )
+    );
+  };
+ 
   return (
     <div className="app">
       <Header />
       <Form onAddItems={hancleAddItems} />
-      <ParkingList items={items} onDeleteItem={handleDleteItem} />
+      <ParkingList
+        items={items}
+        onDeleteItem={handleDleteItem}
+        onToggleItem={handleToggleItem}
+      />
       <Stats items={items} />
     </div>
   );
