@@ -16,12 +16,17 @@ function App() {
     setItems((prevItems) => [...prevItems, item]);
   };
 
+  const handleDleteItem = (id) => {
+    // const newItems = items.filter((item) => item.id !== id);
+    setItems((items) => items.filter((item) => item.id !== id));
+  };
+
   return (
     <div className="app">
       <Header />
       <Form onAddItems={hancleAddItems} />
-      <ParkingList items={items} />
-      <Stats />
+      <ParkingList items={items} onDeleteItem={handleDleteItem} />
+      <Stats items={items} />
     </div>
   );
 }
