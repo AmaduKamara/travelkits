@@ -12,15 +12,18 @@ function App() {
     { id: 4, description: "Graduation Shoe", quantity: 12, packed: false },
   ]);
 
+  // Adding an item to the list
   const hancleAddItems = (item) => {
     setItems((prevItems) => [...prevItems, item]);
   };
 
+  // Deleting an item from the list
   const handleDleteItem = (id) => {
     // const newItems = items.filter((item) => item.id !== id);
     setItems((items) => items.filter((item) => item.id !== id));
   };
 
+  // Toggling items
   const handleToggleItem = (id) => {
     setItems((items) =>
       items.map((item) =>
@@ -28,7 +31,12 @@ function App() {
       )
     );
   };
- 
+
+  // Clearing the items list
+  const handleClearItems = () => {
+    setItems([]);
+  };
+
   return (
     <div className="app">
       <Header />
@@ -37,6 +45,7 @@ function App() {
         items={items}
         onDeleteItem={handleDleteItem}
         onToggleItem={handleToggleItem}
+        onClearList={handleClearItems}
       />
       <Stats items={items} />
     </div>
