@@ -34,7 +34,10 @@ function App() {
 
   // Clearing the items list
   const handleClearItems = () => {
-    setItems([]);
+    const confirmed = window.confirm(
+      "Are you sure you want to delete all the items?"
+    );
+    if (confirmed) setItems([]);
   };
 
   return (
