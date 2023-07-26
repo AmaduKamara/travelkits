@@ -2,7 +2,14 @@
 
 > App for Travellers to use to pack their travel kits by fake storing them here and marking items as packed when they do
 
-## App Usage
+## Built With
+- React
+- CSS
+
+## Author
+- Amadu Kamara
+
+## Getting Started
 
 > To run the app locally on your computer:
 
