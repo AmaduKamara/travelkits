@@ -7,7 +7,7 @@
 - CSS
 
 ## Author
-- Amadu Kamara
+- [Amadu Kamara](https://amkam.vercel.app/)
 
 ## Getting Started
 
