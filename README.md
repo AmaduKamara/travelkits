@@ -23,4 +23,4 @@
 ## Live Demo
 View the app on [Split-Bill](https://travelkits.vercel.app/)
 
-<img width="1711" alt="Screenshot 2023-07-17 at 5 18 22 PM" src="https://github.com/AmaduKamara/travelkits/assets/50941074/2b3ef765-4dea-4e05-93c5-f1acad02dcf3">
+<img width="1792" alt="Screenshot 2023-07-26 at 10 21 13 AM" src="https://github.com/AmaduKamara/travelkits/assets/50941074/4cad85ee-0ed7-448f-99f6-14640d3ce08a">
