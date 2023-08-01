@@ -21,6 +21,6 @@
 - `npm start`
 
 ## Live Demo
-View the app on [Split-Bill](https://travelkits.vercel.app/)
+View the app on [TravelKits](https://travelkits.vercel.app/)
 
 <img width="1792" alt="Screenshot 2023-07-26 at 10 21 13 AM" src="https://github.com/AmaduKamara/travelkits/assets/50941074/4cad85ee-0ed7-448f-99f6-14640d3ce08a">
